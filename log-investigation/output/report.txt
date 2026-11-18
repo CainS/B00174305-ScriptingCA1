@@ -1,0 +1,31 @@
+--------------------------------
+---Security Log Investigation---
+--------------------------------
+
+---Firewall Summary---
+Total Valid Events: 897
+Blocked: 372
+Allowed: 524
+Unique Blocked IPs: 117
+
+---Authentication Summary---
+Success: 314
+Failed: 164
+Locked: 5
+
+---Threat Intelligence---
+Total Hits: 249
+
+---Findings---
+[HIGH] Brute force attack detected
+  - Detected 164 failed login attempts.
+
+[HIGH] Account lockouts occurred
+  - 5 accounts were locked out.
+
+[MEDIUM] High volume of blocked traffic
+  - 372 events were blocked.
+
+[HIGH] Known malicious IPs active
+  - Found 249 events from IPs on the suspicious list.
+

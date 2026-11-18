@@ -1,0 +1,2258 @@
+{
+    "firewall_analysis": {
+        "valid_events": 897,
+        "allowed": 524,
+        "blocked": 372,
+        "unique_blocked_ips": 117,
+        "top_blocked": [
+            [
+                "203.0.113.55",
+                78
+            ],
+            [
+                "203.0.113.77",
+                23
+            ],
+            [
+                "198.51.100.77",
+                22
+            ]
+        ],
+        "top_ports": [
+            [
+                "443",
+                105
+            ],
+            [
+                "8080",
+                100
+            ],
+            [
+                "80",
+                94
+            ],
+            [
+                "993",
+                90
+            ],
+            [
+                "123",
+                87
+            ]
+        ]
+    },
+    "authentication_analysis": {
+        "success": 314,
+        "failed": 164,
+        "locked": 5,
+        "unique_failed_ips": 58,
+        "top_failed_ips": [
+            [
+                "198.51.100.23",
+                46
+            ],
+            [
+                "203.0.113.55",
+                20
+            ],
+            [
+                "203.0.113.77",
+                17
+            ]
+        ],
+        "top_users": [
+            [
+                "admin",
+                53
+            ],
+            [
+                "svc_backup",
+                28
+            ],
+            [
+                "root",
+                15
+            ]
+        ]
+    },
+    "threat_correlation": {
+        "firewall_hits": [
+            {
+                "timestamp": "2026-10-12 08:00:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:04:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:07:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:10:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:13:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:16:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:19:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:21:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:25:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:28:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:32:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:33:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:38:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:41:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:44:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:46:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:50:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:51:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:55:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 08:57:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:01:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:05:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:08:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:11:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:12:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:17:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:18:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:21:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:26:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:29:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:32:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:34:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:38:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:39:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:44:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:47:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:48:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:53:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:56:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 09:57:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:00:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "21",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:01:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:01:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:02:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "23",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:03:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:03:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "25",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:04:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "53",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:05:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:06:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:06:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "110",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:07:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "135",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:08:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "139",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:09:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:09:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "143",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:10:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:11:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "445",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:12:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:12:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "993",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:13:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "995",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:14:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "1433",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:15:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "3306",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:16:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:16:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "3389",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:17:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "5432",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:18:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:18:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "5900",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:19:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.90",
+                "dst_ip": "10.0.0.15",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:21:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:24:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:29:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:31:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:35:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:37:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:41:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:43:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:46:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:49:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:53:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:56:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 10:57:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:00:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:04:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:08:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:10:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:12:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:16:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:18:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:23:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:24:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:27:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:30:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:34:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:37:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:40:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:42:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:46:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.12",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:49:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 11:53:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.20",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:00:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.18",
+                "protocol": "TCP",
+                "port": "3389",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:02:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:04:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.18",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:06:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "22",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:08:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.18",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:10:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.18",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:12:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.18",
+                "protocol": "TCP",
+                "port": "3389",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:14:00",
+                "action": "ALLOWED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "3389",
+                "bytes": "3748"
+            },
+            {
+                "timestamp": "2026-10-12 13:16:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.18",
+                "protocol": "TCP",
+                "port": "3389",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:18:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:20:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:22:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:24:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:26:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "3389",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:28:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.18",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:30:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.18",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:32:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:34:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.18",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:36:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "3389",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:38:00",
+                "action": "ALLOWED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "4913"
+            },
+            {
+                "timestamp": "2026-10-12 13:40:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.18",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:42:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:44:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 13:46:00",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.11",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:00:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.10",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:04:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.17",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:08:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.17",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:12:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.17",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:16:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.10",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:20:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.23",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:24:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.17",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:28:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.17",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:32:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.17",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:36:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.23",
+                "protocol": "UDP",
+                "port": "53",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:40:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.10",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:44:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.23",
+                "protocol": "UDP",
+                "port": "53",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:48:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.23",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:52:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.10",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 16:56:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.23",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 17:00:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.10",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 17:04:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.17",
+                "protocol": "UDP",
+                "port": "53",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 17:08:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.10",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 17:12:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.10",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 17:16:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.17",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 17:20:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.10",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 17:24:00",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.23",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-12 17:28:00",
+                "action": "ALLOWED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.10",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "643"
+            },
+            {
+                "timestamp": "2026-10-12 17:32:00",
+                "action": "ALLOWED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.23",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "1383"
+            },
+            {
+                "timestamp": "2026-10-12 17:36:00",
+                "action": "ALLOWED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.17",
+                "protocol": "UDP",
+                "port": "53",
+                "bytes": "193"
+            },
+            {
+                "timestamp": "2026-10-12 17:40:00",
+                "action": "ALLOWED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.17",
+                "protocol": "UDP",
+                "port": "53",
+                "bytes": "678"
+            },
+            {
+                "timestamp": "2026-10-12 17:44:00",
+                "action": "ALLOWED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.23",
+                "protocol": "UDP",
+                "port": "53",
+                "bytes": "2540"
+            },
+            {
+                "timestamp": "2026-10-12 17:48:00",
+                "action": "ALLOWED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.23",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "3533"
+            },
+            {
+                "timestamp": "2026-10-12 17:52:00",
+                "action": "ALLOWED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.10",
+                "protocol": "TCP",
+                "port": "443",
+                "bytes": "2111"
+            },
+            {
+                "timestamp": "2026-10-12 17:56:00",
+                "action": "ALLOWED",
+                "src_ip": "198.51.100.77",
+                "dst_ip": "10.0.0.10",
+                "protocol": "TCP",
+                "port": "80",
+                "bytes": "858"
+            },
+            {
+                "timestamp": "2026-10-13 01:52:15",
+                "action": "ALLOWED",
+                "src_ip": "198.51.100.18",
+                "dst_ip": "10.0.0.29",
+                "protocol": "UDP",
+                "port": "53",
+                "bytes": "8649"
+            },
+            {
+                "timestamp": "2026-10-13 20:37:22",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.23",
+                "dst_ip": "10.0.0.16",
+                "protocol": "TCP",
+                "port": "587",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-14 00:59:14",
+                "action": "BLOCKED",
+                "src_ip": "203.0.113.77",
+                "dst_ip": "10.0.0.21",
+                "protocol": "TCP",
+                "port": "993",
+                "bytes": "0"
+            },
+            {
+                "timestamp": "2026-10-14 09:58:48",
+                "action": "ALLOWED",
+                "src_ip": "203.0.113.12",
+                "dst_ip": "10.0.0.10",
+                "protocol": "UDP",
+                "port": "123",
+                "bytes": "6079"
+            },
+            {
+                "timestamp": "2026-10-14 20:14:22",
+                "action": "ALLOWED",
+                "src_ip": "198.51.100.18",
+                "dst_ip": "10.0.0.8",
+                "protocol": "TCP",
+                "port": "587",
+                "bytes": "4142"
+            },
+            {
+                "timestamp": "2026-10-16 09:29:30",
+                "action": "ALLOWED",
+                "src_ip": "203.0.113.55",
+                "dst_ip": "10.0.0.7",
+                "protocol": "TCP",
+                "port": "8080",
+                "bytes": "7217"
+            },
+            {
+                "timestamp": "2026-10-16 15:23:18",
+                "action": "BLOCKED",
+                "src_ip": "198.51.100.18",
+                "dst_ip": "10.0.0.16",
+                "protocol": "TCP",
+                "port": "993",
+                "bytes": "0"
+            }
+        ],
+        "auth_hits": [
+            {
+                "timestamp": "2026-10-12 08:12:20",
+                "event": "LOGIN_SUCCESS",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.18",
+                "host": "files01",
+                "method": "ssh_key"
+            },
+            {
+                "timestamp": "2026-10-12 09:00:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:02:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:04:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:06:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:08:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:10:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:12:00",
+                "event": "LOGIN_FAILED",
+                "user": "administrator",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:14:00",
+                "event": "LOGIN_FAILED",
+                "user": "administrator",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:16:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:18:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:20:00",
+                "event": "LOGIN_FAILED",
+                "user": "administrator",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:22:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:24:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:26:00",
+                "event": "LOGIN_FAILED",
+                "user": "administrator",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:28:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:30:00",
+                "event": "LOGIN_FAILED",
+                "user": "administrator",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:32:00",
+                "event": "LOGIN_FAILED",
+                "user": "administrator",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:34:00",
+                "event": "LOGIN_FAILED",
+                "user": "administrator",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:36:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:38:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:40:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:42:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:44:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:46:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:48:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:50:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:52:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:54:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:56:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 09:58:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:00:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:02:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:04:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:06:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:08:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:10:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:12:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:14:00",
+                "event": "LOGIN_FAILED",
+                "user": "administrator",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:16:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:18:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:20:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:22:00",
+                "event": "LOGIN_FAILED",
+                "user": "administrator",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:24:00",
+                "event": "LOGIN_FAILED",
+                "user": "svc_backup",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:26:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:28:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 10:30:00",
+                "event": "LOGIN_FAILED",
+                "user": "root",
+                "src_ip": "198.51.100.23",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:00:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:05:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:10:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:15:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:20:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:25:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:30:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:35:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:40:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:45:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:50:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 11:55:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 12:00:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 12:05:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 12:10:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 12:15:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 12:20:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 12:25:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 12:30:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 12:35:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.55",
+                "host": "web01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:00:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:03:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:06:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:09:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:12:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:15:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:18:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:21:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:24:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:27:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:30:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:33:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:36:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:39:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:42:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:45:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:48:00",
+                "event": "LOGIN_FAILED",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 14:51:00",
+                "event": "LOGIN_SUCCESS",
+                "user": "admin",
+                "src_ip": "203.0.113.77",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-12 17:00:00",
+                "event": "ACCOUNT_LOCKED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-13 17:00:00",
+                "event": "ACCOUNT_LOCKED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-14 17:00:00",
+                "event": "ACCOUNT_LOCKED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-15 17:00:00",
+                "event": "ACCOUNT_LOCKED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            },
+            {
+                "timestamp": "2026-10-16 17:00:00",
+                "event": "ACCOUNT_LOCKED",
+                "user": "admin",
+                "src_ip": "198.51.100.23",
+                "host": "vpn01",
+                "method": "password"
+            }
+        ],
+        "total_hits": 249
+    },
+    "findings": [
+        {
+            "risk": "HIGH",
+            "finding": "Brute force attack detected",
+            "explanation": "Detected 164 failed login attempts."
+        },
+        {
+            "risk": "HIGH",
+            "finding": "Account lockouts occurred",
+            "explanation": "5 accounts were locked out."
+        },
+        {
+            "risk": "MEDIUM",
+            "finding": "High volume of blocked traffic",
+            "explanation": "372 events were blocked."
+        },
+        {
+            "risk": "HIGH",
+            "finding": "Known malicious IPs active",
+            "explanation": "Found 249 events from IPs on the suspicious list."
+        }
+    ]
+}
